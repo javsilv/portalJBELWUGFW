@@ -39,8 +39,8 @@ function buscarRegistroPorNombreTable() {
             <!-- Agrega más columnas según tus datos -->
             <td>${
               registro.status
-                ? `<button onclick="CancelarPorNombre('${registroId}')"><img src="/img/aprobado.png" alt="Image for True"></button>`
-                : `<button onclick="AprobarQuinielaPorNombre('${registroId}')"><img src="/img/espera.png" alt="Image for False"></button>`
+                ? `<button onclick="CancelarPorNombre('${registroId}')"><img src="https://javsilv.github.io/portalJBELWUGFW/img/aprobado.png" alt="Image for True"></button>`
+                : `<button onclick="AprobarQuinielaPorNombre('${registroId}')"><img src="https://javsilv.github.io/portalJBELWUGFW/img/espera.png" alt="Image for False"></button>`
             }</td>
           `;
           tablaRegistros.appendChild(fila);
